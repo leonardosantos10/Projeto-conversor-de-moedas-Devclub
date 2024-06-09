@@ -1,0 +1,129 @@
+/*.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }    */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'roboto', sans-serif;
+   outline: none;
+}
+
+body {
+      /* background-color: #8A51FC;     /* cor de fundo */
+      background-image: url("./assets/imagem\ FCM.jpg");
+      background-size: cover;
+}
+
+main {                             /* por padrão ja é display-block  */
+          width: 375px ;              /* largura */
+          background: #F4F4F4;
+          border-radius: 20px;        /* borda */
+          margin: 0 auto 40px;            /* centralizar o elemento dentro do Main */
+          padding: 18px 24px 23px ;   /* 1)cima  2)lados  3)embaixo  */
+          
+}
+  
+.logo {
+         width: 250px;        /* largura*/
+         display: block;       /* ocupa toda linha */                               
+         margin: 6px auto;   /*toda vez que colocamos um elementos como margin-left:auto e margin-rigth:auto = ele centralizar automaticamente*/
+        
+}
+
+label {
+          color: #777777;
+          font-weight: 400;
+          font-size: 14px;    /* tamanho da fonte*/
+}
+
+select, input{
+          background: #FFFFFF;
+          border: 1px solid #BBBBBB;
+          border-radius: 4px;
+          height: 48px;
+          width: 100%;
+          margin-bottom: 24px;
+          font-style: none;
+          padding-left: 18px;   /*  espaçamento externo para o lado esquerdo */
+          font-weight: 700;
+          font-size: 18px;
+          color: #555555;
+          cursor: pointer;
+         
+}
+
+button {
+
+  background: #772fd3;
+  border-radius: 5px;         
+  width: 100%;                /*ocupa tudo  */
+  border: none;
+  height: 48px;            /* altura */
+  color: #FFFFFF;         /* cor do texto do botão */
+  font-weight: 700;
+  font-size: 18px;           /* tamanho da fonte */
+  cursor: pointer;
+}
+
+button:hover {
+                        /* mudar a cor para clara ao passar o mause sobre o elemento */
+  opacity: 0.8;
+}
+
+button:active {           /* quando for clicado */
+
+  opacity: 0.6;
+}
+
+section {
+      
+  border: 1px solid #772FD3;
+  border-radius: 20px;                /*ultima caixa */
+  margin-top: 36px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;            /* items em coluna */
+  align-items: center;
+  
+}
+
+.arrow-img {
+
+  margin: 15px 0; 
+}
+
+.currency-box {
+
+  display: flex;
+  flex-direction: column;      /* elementos em coluna */
+  align-items: center;
+  gap: 4px;                    /* distanciamento entre os items */
+  
+}
+
+.currency {
+
+   color: #777777;
+   font-size: 14px;
+
+}
+
+
+.currency-value, .currency-value-to-convert {
+
+color: #555555;
+font-weight: 700;
+font-size: 20px;
+
+}
+
