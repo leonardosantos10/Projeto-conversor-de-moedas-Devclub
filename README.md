@@ -1,6 +1,6 @@
 <h1>Conversor Money</h1>
 
-<h3>é um projeto de uma página conversor de moedas do real para dólar ou do real Para Euro!
+<h3>é um projeto de uma Página de conversor de moedas do real para dólar ou do real Para Euro!
 Projeto está Responsivo, Neste Projeto utilizei a seguintes Tecnologias:</h3>
 
 - <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html-logo"/>
