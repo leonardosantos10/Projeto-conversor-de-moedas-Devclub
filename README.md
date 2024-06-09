@@ -1,4 +1,4 @@
-<h1>Conversor Money</h1>
+<h1>Conversor de Moedas!</h1>
 
 <h3>é um projeto de uma Página de conversor de moedas do real para dólar ou do real Para Euro!
 Projeto está Responsivo, Neste Projeto utilizei a seguintes Tecnologias:</h3>
