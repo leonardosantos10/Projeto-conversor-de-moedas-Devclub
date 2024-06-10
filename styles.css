@@ -19,8 +19,7 @@
 }
 
 body {
-      /* background-color: #8A51FC;     /* cor de fundo */
-      background-image: url("./assets/imagem\ FCM.jpg");
+      background-color: #8A51FC;     /* cor de fundo */
       background-size: cover;
 }
 
